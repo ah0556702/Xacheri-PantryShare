@@ -14,6 +14,8 @@
     <span><a href="request.php">Request</a></span>
     <span><a href="serviceDetails.php">Service Details</a></span>
     <span><a href="requestList.php">Request List</a></span>
+    <span><a href="confirmationGiver.php">Dropped Off</a></span>
+    <span><a href="confirmationGot.php">Picked Up</a></span>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>

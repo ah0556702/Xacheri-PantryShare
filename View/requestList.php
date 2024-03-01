@@ -16,6 +16,7 @@
         <!-- Requested items will be dynamically added here -->
       </ul>
     </form>
+    <button id="droppedOffButton">Dropped Off</button>
   </div>
 
   <script>
@@ -61,7 +62,15 @@
         requestedItemsList.insertBefore(listItem, requestedItemsList.firstChild);
       }
     }
+
+    // Function to handle click event on "Dropped Off" button
+    document.getElementById("droppedOffButton").addEventListener("click", function() {
+      // Redirect to confirmationGiver.php page
+      window.location.href = "confirmationGiver.php";
+
+      // Notify the other user by redirecting them to confirmationGot.php
+      window.open("confirmationGot.php");
+    });
   </script>
 </body>
 </html>
-
