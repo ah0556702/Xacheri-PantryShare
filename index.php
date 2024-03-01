@@ -17,7 +17,7 @@
     
     <script>
         setTimeout(function(){
-            window.location.href = "View/landingPage.php";
+            window.location.href = "View/login.php";
         }, 3000);
     </script>
         /*switch($action){
