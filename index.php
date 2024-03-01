@@ -18,7 +18,7 @@
     <script>
         setTimeout(function(){
             window.location.href = "View/login.php";
-        }, 3000);
+        }, 1000);
     </script>
         /*switch($action){
             case "register":
