@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,9 +7,19 @@
     <title>Document</title>
 </head>
 <body>
-    <?php
-    include "View/landingPage.php";
-    ?>
+
+    <div class="landing" id="landing">
+        <a href="#landingPage">
+            <img src="images/logo.png" alt="logoIcon">
+        </a>
+    </div>
+
+    
+    <script>
+        setTimeout(function(){
+            window.location.href = "View/landingPage.php";
+        }, 3000);
+    </script>
         /*switch($action){
             case "register":
                 //$username = $_POST['username'];

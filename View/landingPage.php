@@ -1,3 +1,5 @@
+<?php include "navigation.php" ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,10 +8,6 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="landing" id="landing">
-        <a href="#landingPage">
-            <img src="images/logo.png" alt="logoIcon">
-        </a>
-    </div>
+
 </body>
 </html>
