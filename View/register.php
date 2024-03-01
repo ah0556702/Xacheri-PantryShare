@@ -1,4 +1,4 @@
-<?php include "../includes/cdnlinks.php"; ?>
+<?php include "../includes/cdnlinks.php"; include "navigation.php" ?>
 
 <form action="" method="post">
     <div class="mb-3">

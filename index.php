@@ -39,7 +39,7 @@
                 // with checkbox values in list form submitted
                 // by user in request
             
-            case "communicate": // this should just show notification messages such as.. "Your request has been deliverd" or "Thank you for fulfilling a request"
+            case "communicate": // this should just show notification messages such as.. "Your request has been delivered" or "Thank you for fulfilling a request"
                 include "View/Messages.php";
         }*/
 
